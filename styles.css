@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 0;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  background-image: url("images/background.jpg");
+  background-repeat: repeat;
+  background-position: top center;
+  font-family: "Crimson Text", serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+input.search {
+  margin: 0;
+  border-radius: 5px;
+  outline: 0;
+  font-size: 25px;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  margin: 1em 1%;
+  padding: 25px;
+  background-color: rgba(63, 56, 46, 0.85);
+  color: white;
+  box-shadow: 0 0 10px rgba(233, 207, 167, 0.75);
+}
+
+.card h3 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.card p {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card p.card__flavor {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.card p.card__cost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #374e72;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.card p.card__attack {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #f5b438;
+  color: #3f382e;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.card p.card__health {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #5d0310;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.card-druid {
+  background-color: rgba(255, 125, 10, 0.85);
+  color: #3f382e;
+}
+
+.card-hunter {
+  background-color: rgba(171, 212, 115, 0.85);
+  color: #3f382e;
+}
+
+.card-mage {
+  background-color: rgba(105, 204, 240, 0.85);
+  color: #3f382e;
+}
+
+.card-paladin {
+  background-color: rgba(245, 140, 186, 0.85);
+  color: #3f382e;
+}
+
+.card-priest {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #3f382e;
+}
+
+.card-rogue {
+  background-color: rgba(255, 245, 105, 0.85);
+  color: #3f382e;
+}
+
+.card-shaman {
+  background-color: rgba(0, 112, 222, 0.85);
+  color: #3f382e;
+}
+
+.card-warlock {
+  background-color: rgba(148, 130, 201, 0.85);
+  color: #3f382e;
+}
+
+.card-warrior {
+  background-color: rgba(199, 156, 110, 0.85);
+  color: #3f382e;
+}
+
+.highlight {
+  background-color: #b4bfd3;
+  color: black;
+}
+
+.search-form {
+  max-width: 350px;
+  margin: 50px auto;
+}
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
